@@ -1,0 +1,11 @@
+[package]
+name = "adventofcode2017"
+version = "0.1.0"
+edition = "2021"
+
+[profile.release]
+opt-level = 3
+
+[dependencies]
+itertools = "0.14.0"
+nom = "7.1.3"
